@@ -1,6 +1,5 @@
 fun main() {
-    println("Would you like to roll the dice? Click enter to roll!")
-    val waitval = readln()
+    println("Rolling the dice!")
     val randomNum = (1..6).random()
     println(randomNum)
 }
